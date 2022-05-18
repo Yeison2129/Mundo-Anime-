@@ -1,0 +1,102 @@
+header{
+    padding: 20px;
+  }
+
+  .logo{
+    width: 30%;
+    float: left;
+    justify-content: center;
+  }
+
+  .logo img{
+    width: 300px;
+  }
+
+  nav{
+    margin-top: 60px;
+    width: 60%;
+    float: right;
+  }
+
+  nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    background: rgb(247, 219, 98);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  nav ul li a:hover{
+    background: rgb(124, 248, 120);
+  }
+  
+  section img{
+   width: 30%;
+  padding: 20px;
+  float: left;
+
+  }
+  
+.s1{
+  width: 64%;
+  float: left;
+  float: right;
+}
+
+.s2{
+  width: 64%;
+  float: left;
+  float: right;
+}
+
+
+ 
+/* STYLE MUNDO ANIME */
+
+*{
+margin: 0;
+padding: 0;
+}
+
+
+body{
+    background:url(../images/anime.jpg);
+    background-color: #030302;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+
+
+#portada{
+    width: 300px; ;
+}
+
+.negro{
+    color: #000;
+}
+
+main{   
+    background: rgba(232, 216, 216);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+} 
+
+img{
+    width: 225px;
+}
+
+.tamaño{
+    width: 175px; 
+    height: 175px;
+}
+
+.container{
+ padding: 10px;;
+}
